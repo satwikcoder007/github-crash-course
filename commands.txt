@@ -1,0 +1,51 @@
+Git hub commands
+
+1.remote repo => this reffers to the repo we have forked from the main repo
+
+2.upstream repo => this reffers to the main repo that have been forked
+
+2.git remote add origin <Remote repo URL> =>
+command is used to set this default remote repository for your local repository. It establishes a connection between your local repository and the remote repository, assigning the name "origin" to the remote repository's URL.
+
+
+3.git remote add upstream < Upstream repo URL> 
+ command is used to add the original repository (the upstream repository) as a remote to your local repository. This allows you to fetch changes from the upstream repository into your local repository and stay up-to-date with the changes made in the original repository.
+
+
+4.  git remote -v 
+
+ see all the remote URL
+
+5. echo Hello, World! > example.txt : this command is used to add file
+
+6. git branch <branch_name>  : Create a new Branch
+
+7. git checkout <branch_name> is used to swiitch between branches
+
+8.  git branch      (Shows all the currently available git branches)
+    git branch -v   (Shows the currently available git branches along with their details)
+
+9.git add . (to stage all changes)
+
+10 git commit -m <message>
+
+11.git push origin <branch_name>
+
+12.git push upstream <branch_name>
+
+13. git pull origin <branch_name>
+
+14. git rebase <main_branche_name> 
+
+15. git diff is used to see the diffrence in the file
+
+16.git show <commit_id> this will show all the changes done in this commit
+
+17.git status (show the unstaged changes in the files)
+
+18.git reset --hard <commit_id> this will point the head to previous commit and the current changes will be discarded (if we use this command the we need to use git push -f to force push)
+
+19. git revert <commit_id> (this is to revert some in between commits and keep the rest of the commits this command basically remove the portion of code wirtten in the commit and perform another commit)
+
+
+20. SSH KEY need to learn this

@@ -49,3 +49,16 @@ command is used to set this default remote repository for your local repository.
 
 
 20. SSH KEY need to learn this
+
+21. if we clone some ones repo the remote is already set.
+
+22.  git diff <previous_commit_id> <new_commit_id> (show the diffrence between two commit)
+
+23. git push --set-upstream origin <branch name> (this command create the local branch in upstream and push the code into it)
+
+24.git merge origin/<branch_name> (this command basically convert all the commit done in that branch and convert it into a single commit and push to main)
+	In case of merge we compress all the commit in that branch thus loss al its commit history.
+
+25. git rebase origin/<branch_name> (in this case al the commit in the target brach get connected to main and the head pointed to last commit but in this case commit history became more
+polluted thus merge is mostly used)
+
